@@ -24,6 +24,6 @@ wss.on("connection", (ws: WebSocket) => {
     });
 });
 
-server.listen(process.env.PORT || 8999, () => {
+server.listen(process.env.PORT || 8080, () => {
     console.log(`Server started :)`);
 });
